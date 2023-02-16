@@ -1,0 +1,89 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: solid;
+  border-color: black;
+}
+
+.central_box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-around;
+}
+
+legend {
+  display: flex;
+  margin-left:10%;
+  border: solid;
+  border-color: black;
+}
+
+.basic_info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+
+}
+.vote {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.sign_up {
+display: flex;
+flex-direction: row;
+align-content: center;
+
+}
+
+#comments{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 2%;
+  width: 200px;
+  height: 100px;
+}
+
+
+
+#comments_label {
+margin-right: 50%;
+
+}
+
+
+.submit_button {
+  margin-top: 2%;
+
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  width: 40%;
+}
